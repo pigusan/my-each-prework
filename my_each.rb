@@ -7,7 +7,7 @@ def my_each(array) # put argument(s) here
   array
 end
 
-my_each(array) do |num|
+my_each(array) do |element|
     puts num
   end
 end
