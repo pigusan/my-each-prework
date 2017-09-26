@@ -7,6 +7,6 @@ def my_each(array) # put argument(s) here
   array
 end
 
-yield(array) do |element|
+my_each(array) do |element|
   puts element
 end
